@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+$textFont: 'Montserrat', sans-serif;
+$headerFont: 'Montserrat', sans-serif;
+
+:export {
+  textFont: $textFont;
+  headerFont: $headerFont;
+}

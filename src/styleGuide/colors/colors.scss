@@ -1,0 +1,9 @@
+$bgPrimary: #E0E0E0;
+$textPrimary: #fff;
+$borderColor: $textPrimary;
+
+:export {
+  bgPrimary : $bgPrimary;
+  textPrimary: $textPrimary;
+  borderColor: $borderColor;
+}

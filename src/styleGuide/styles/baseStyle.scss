@@ -1,0 +1,45 @@
+@import "../colors/colors";
+@import "../fonts/fonts";
+
+body{
+  background: url('../../images/bg.jpg');
+  font-family: $textFont;
+}
+
+
+a{
+  text-decoration: none;
+  color: $textPrimary;
+}
+
+h1{
+  font-family: $headerFont;
+}
+
+table{
+  width: 100%;
+  border: 1px solid #ddd;
+  margin: 1% 0;
+}
+
+table th{
+  background: #ccc;
+}
+
+table td{
+  padding: .3rem;
+  border-bottom: 1px solid #ccc;
+}
+
+table thead{
+  padding: 2%;
+}
+
+table thead th{
+  padding: .4rem;
+}
+
+table tr {
+  border-bottom: 1px solid #ddd;
+  padding: 2rem;
+}
