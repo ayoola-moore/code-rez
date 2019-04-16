@@ -1,0 +1,28 @@
+@import "../../styleGuide/colors/colors";
+
+.home_wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+
+.welcome_p{
+  text-align: center;
+  padding: 12vh 5% 10vh;
+  font-size: 2em;
+}
+
+.begin{
+  padding: 2% 10%;
+  font-size: 1.2em;
+  background: inherit;
+  border: 1px solid;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 2%;
+  color: $textPrimary;
+}

@@ -2,16 +2,16 @@ import React from 'react'
 import { storiesOf } from '@storybook/react'
 import { withInfo } from '@storybook/addon-info'
 import { withKnobs, text } from '@storybook/addon-knobs/react'
-import { styleGuide } from '../../stories/utils/storybook'
+import { compHeader } from '../../stories/utils/storybook'
 import H1 from './h1'
 import H2 from './h2'
 
-const header = storiesOf(`${styleGuide} | Headers`, module)
+const header = storiesOf(`${compHeader} | Headers`, module)
 
 header.addDecorator(withKnobs)
 
 header.addDecorator((story, context) =>
-    withInfo('Design atom for header :: src - styleGuide/headers')(story)(
+    withInfo('Design atom for header :: src - components/headers')(story)(
         context
     )
 )

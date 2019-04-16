@@ -1,6 +1,6 @@
 import React from 'react'
-import colors from '../colors/colors.scss'
-import fonts from '../fonts/fonts.scss'
+import colors from '../../styleGuide/colors/colors.scss'
+import fonts from '../../styleGuide/fonts/fonts.scss'
 
 type Props = {
     children: any,
