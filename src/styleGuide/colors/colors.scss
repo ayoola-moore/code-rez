@@ -1,9 +1,11 @@
 $bgPrimary: #E0E0E0;
 $textPrimary: #000;
+$red: red;
 $borderColor: $textPrimary;
 
 :export {
   bgPrimary : $bgPrimary;
   textPrimary: $textPrimary;
   borderColor: $borderColor;
+  red: $red;
 }

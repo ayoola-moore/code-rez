@@ -10,7 +10,9 @@ exports[`Storyshots Components | Buttons Default 1`] = `
       }
     }
   >
-    <button>
+    <button
+      className="undefined animated-button thar-one"
+    >
       Button Text
     </button>
   </div>

@@ -1,0 +1,21 @@
+@import "../../styleGuide/colors/colors";
+
+.home_wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.lunch{
+  text-align: center;
+  padding: 1% 5%;
+  font-size: 2em;
+  background-color: $red;
+  border-radius: 15px;
+  border: 2px solid;
+  overflow: hidden;
+}

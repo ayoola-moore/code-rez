@@ -9,7 +9,10 @@ type ButtonProps = {
 
 const Button = ({ children, handleClick, className }: ButtonProps) => {
     return (
-        <button onClick={handleClick} className={className}>
+        <button
+            onClick={handleClick}
+            className={`${className} animated-button thar-one`}
+        >
             {children}
         </button>
     )
