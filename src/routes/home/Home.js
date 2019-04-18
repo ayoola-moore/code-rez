@@ -3,8 +3,12 @@ import { withRouter } from 'react-router-dom'
 import Button from '../../components/buttons'
 import './home.scss'
 
-class Home extends React.Component {
-    handleClick = () => this.props.history.push('/view')
+type HomeProps = {
+    history: Object,
+}
+
+class Home extends React.Component<HomeProps> {
+    handleClick = () => this.props.history.push('/recommendations')
     render() {
         return (
             <div className={'home_wrapper'}>

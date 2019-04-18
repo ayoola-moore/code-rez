@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Home should render Home Component as the landing view 1`] = `
+exports[`Home should render Home Component as the landing recommendations 1`] = `
 <Route>
   <Component />
 </Route>

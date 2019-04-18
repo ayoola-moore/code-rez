@@ -80,7 +80,6 @@ The normal convention would be "npm run ..." without the quote and ... replaced 
     "build": "react-scripts build",
     "serve": "serve -s build",
     "test": "react-scripts test",
-    "pretest": "npm run flow",
     "lint:js": "eslint . --ext .js,.jsx",
     "eject": "react-scripts eject",
     "flow": "flow",
@@ -92,6 +91,7 @@ The normal convention would be "npm run ..." without the quote and ... replaced 
 
 1. [Clone the repo](#1-clone-the-repo)
 2. [Run the application](#2-run-the-application)
+3. run "flow-typed install" before running flow
 
 ### 1. Clone the repo
 

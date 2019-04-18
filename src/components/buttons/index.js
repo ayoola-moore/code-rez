@@ -11,7 +11,7 @@ const Button = ({ children, handleClick, className }: ButtonProps) => {
     return (
         <button
             onClick={handleClick}
-            className={`${className} animated-button thar-one`}
+            className={`${className ? className : ''} animated-button thar-one`}
         >
             {children}
         </button>
@@ -20,6 +20,7 @@ const Button = ({ children, handleClick, className }: ButtonProps) => {
 
 Button.defaultProps = {
     children: 'Button Text',
+    className: 'dw',
 }
 
 export default Button

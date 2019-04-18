@@ -11,7 +11,7 @@ exports[`Storyshots Components | Buttons Default 1`] = `
     }
   >
     <button
-      className="undefined animated-button thar-one"
+      className="dw animated-button thar-one"
     >
       Button Text
     </button>
@@ -408,6 +408,67 @@ exports[`Storyshots Components | Buttons Default 1`] = `
                       }
                     >
                       Button Text
+                    </span>
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  />
+                </tr>
+                <tr>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    className
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    <span>
+                      unknown
+                    </span>
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    -
+                  </td>
+                  <td
+                    style={
+                      Object {
+                        "paddingRight": 10,
+                        "verticalAlign": "top",
+                      }
+                    }
+                  >
+                    <span
+                      style={
+                        Object {
+                          "color": "#22a",
+                          "wordBreak": "break-word",
+                        }
+                      }
+                    >
+                      dw
                     </span>
                   </td>
                   <td
