@@ -3,11 +3,19 @@ import { Spring } from 'react-spring/renderprops'
 import { connect } from 'react-redux'
 import H1 from '../../components/headers/h1'
 import H2 from '../../components/headers/h2'
+import { fetchApi } from '../../features/recipe/actions'
 
 import './recommendations.scss'
 
-class View extends Component<{}> {
-    componentDidMount() {}
+//Flow type check for recommendation
+type FetchApi = {
+    fetchApi: () => {},
+}
+
+class Recommendations extends Component<FetchApi> {
+    componentDidMount() {
+        this.props.fetchApi()
+    }
     render() {
         return (
             <Spring
@@ -28,5 +36,5 @@ class View extends Component<{}> {
 
 export default connect(
     null,
-    {}
-)(View)
+    { fetchApi }
+)(Recommendations)
