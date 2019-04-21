@@ -1,5 +1,7 @@
 # Rezdy
 
+![feature capture](https://media.giphy.com/media/1xV6AbmqSeO02f18cV/giphy.gif)
+
 !important- I notice the range of date provided by the api are out of range and might be able to show the feature request. So I mocked out same api. Kindly comment it out at src/api/Api.js if need be.
 
 ===
@@ -7,10 +9,14 @@
 Technical assessment for Rezdy. As part of assessment, I have added a couple of features which were not explicitly required but was to ensure proper documentation, good code quality, and organization.
 
 For example, storybookJs was used in implementing a design system/component library for the product, as well other code quality check like husky and linted-staged was introduced in the process.
+![feature capture](https://media.giphy.com/media/MnFaKTPRCtGMmXVfT7/giphy.gif)
 
 Flow was also used to ensure 100% test coverage. I have also alternated between snapshot, unit, and integration test.
 
-![feature capture](https://media.giphy.com/media/1xV6AbmqSeO02f18cV/giphy.gif)
+I have also check the performance and I got an average of 90% running it several times
+![feature capture](https://media.giphy.com/media/wZtjdU9qbl46hPqBLv/giphy.gif)
+
+Installation guide can be found below
 
 # Notable tech stack includes the following
 
@@ -37,6 +43,10 @@ Flow was also used to ensure 100% test coverage. I have also alternated between 
 Components are designed as self-contained. Containing their test files, styles, stories, and utilities etc.
 
 This directory is a representation of presentation and re-usable components
+
+### src/api
+
+Hold the APIs endpoints
 
 ### src/features
 
