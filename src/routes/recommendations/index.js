@@ -5,21 +5,16 @@ import H2 from '../../components/headers/h2'
 import Animate from '../../components/animate'
 import Loading from '../../components/loading'
 import List from '../../components/list'
-import { fetchApi } from '../../features/recipe/actions'
 import { makeRecommendation } from '../../features/recipe/selectors'
 
 import './recommendations.scss'
 
 //Flow type check for recommendation
 type FetchApi = {
-    fetchApi: Object,
     recipes: any,
 }
 
 export class Recommendations extends React.Component<FetchApi> {
-    componentDidMount() {
-        this.props.fetchApi()
-    }
     render() {
         const { recipes } = this.props
 
@@ -51,7 +46,4 @@ const mapStp = (state: Array<Object>) => ({
     recipes: makeRecommendation(state),
 })
 
-export default connect(
-    mapStp,
-    { fetchApi }
-)(Recommendations)
+export default connect(mapStp)(Recommendations)
