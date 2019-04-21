@@ -4,7 +4,7 @@ import * as actions from './actions'
 import recipeReducer from './reducers'
 import { callApi } from './saga'
 import api from '../../api/Api'
-import { call, put } from 'redux-saga/effects'
+import { call } from 'redux-saga/effects'
 
 // Redux action test
 describe('Redux action test cases', () => {

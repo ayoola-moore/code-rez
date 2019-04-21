@@ -1,10 +1,16 @@
 # Rezdy
 
-Technical assessment for Rezdy. As part of assessment, I have added a couple of features which were not explicitly required but was to ensure proper documentation, code quality, and organization.
+!important- I notice the range of date provided by the api are out of range and might be able to show the feature request. So I mocked out same api. Kindly comment it out at src/api/Api.js if need be.
+
+===
+
+Technical assessment for Rezdy. As part of assessment, I have added a couple of features which were not explicitly required but was to ensure proper documentation, good code quality, and organization.
 
 For example, storybookJs was used in implementing a design system/component library for the product, as well other code quality check like husky and linted-staged was introduced in the process.
 
 Flow was also used to ensure 100% test coverage. I have also alternated between snapshot, unit, and integration test.
+
+![feature capture](https://media.giphy.com/media/1xV6AbmqSeO02f18cV/giphy.gif)
 
 # Notable tech stack includes the following
 
@@ -83,6 +89,7 @@ The normal convention would be "npm run ..." without the quote and ... replaced 
     "lint:js": "eslint . --ext .js,.jsx",
     "eject": "react-scripts eject",
     "flow": "flow",
+    "glow": "glow --watch",
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public"
 ```
@@ -110,6 +117,15 @@ $ git clone git@github.com:ayoola-moore/code-rez.git
 $ npm install
 
 $ npm run start
+```
+
+Or Serve build copy locally
+
+```
+$ npm run build
+
+$ npm run serve
+
 ```
 
 Verify app is running and working correctly.
