@@ -1,4 +1,4 @@
-import React from 'react'
+import * as React from 'react' // Flow recommended this
 import { shallow } from 'enzyme'
 import App from './App'
 

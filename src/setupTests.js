@@ -1,4 +1,4 @@
-import React from 'react'
+import * as React from 'react' // Flow recommended this
 import { shallow, render, mount } from 'enzyme'
 import { configure } from 'enzyme'
 import Adapter from 'enzyme-adapter-react-16'

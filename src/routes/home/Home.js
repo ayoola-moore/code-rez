@@ -1,4 +1,4 @@
-import React from 'react'
+import * as React from 'react' // Flow recommended this
 import { withRouter } from 'react-router-dom'
 import Button from '../../components/buttons'
 import './home.scss'

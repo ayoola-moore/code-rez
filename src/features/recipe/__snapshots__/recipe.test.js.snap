@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Redux action test cases should fetch api:: fetchApi 1`] = `
+Object {
+  "type": "MAKE_RECIPE",
+}
+`;
+
+exports[`Redux action test cases should fetch ingredients:: fetchIngredient 1`] = `
+Object {
+  "ingredients": undefined,
+  "type": "FETCH_INGREDIENTS",
+}
+`;
+
+exports[`Redux action test cases should fetch recipes:: fetchRecipes 1`] = `
+Object {
+  "recipes": undefined,
+  "type": "FETCH_RECIPES",
+}
+`;
+
+exports[`Redux action test cases should recommend based on filter:: recommendations 1`] = `
+Object {
+  "recommended": undefined,
+  "type": "RECOMMENDATIONS",
+}
+`;
+
+exports[`Redux state test cases should find ingredients 1`] = `
+Object {
+  "allRecipes": Array [],
+  "ingredients": Object {},
+  "recommended": Array [],
+}
+`;
+
+exports[`Redux state test cases should find recipes 1`] = `
+Object {
+  "allRecipes": Array [],
+  "ingredients": Object {},
+  "recommended": Array [],
+}
+`;
+
+exports[`Redux state test cases should find recommendationas 1`] = `
+Object {
+  "allRecipes": Array [],
+  "ingredients": Object {},
+  "recommended": Array [],
+}
+`;

@@ -1,4 +1,4 @@
-import React from 'react'
+import * as React from 'react' // Flow recommended this
 
 import { Route, Switch } from 'react-router-dom'
 
