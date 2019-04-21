@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should Find List component should find List 1`] = `
+<ul>
+  <li />
+</ul>
+`;

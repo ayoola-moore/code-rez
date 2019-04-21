@@ -1,4 +1,4 @@
-import React from 'react'
+import * as React from 'react' // Flow recommended this
 import { storiesOf } from '@storybook/react'
 import DesignTokens from './designTokens/index'
 import { readMe } from './utils/storybook'

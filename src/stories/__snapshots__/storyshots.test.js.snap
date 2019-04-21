@@ -505,7 +505,7 @@ exports[`Storyshots Components | Headers h1 1`] = `
         Object {
           "color": undefined,
           "fontFamily": undefined,
-          "fontSize": "3em",
+          "fontSize": "1.5em",
           "textTransform": "uppercase",
           "width": "100%",
         }
@@ -942,7 +942,7 @@ exports[`Storyshots Components | Headers h2 1`] = `
         Object {
           "color": undefined,
           "fontFamily": undefined,
-          "fontSize": "2em",
+          "fontSize": "1em",
           "textTransform": "uppercase",
           "width": "100%",
         }

@@ -4,12 +4,12 @@ Technical assessment for Rezdy. As part of assessment, I have added a couple of 
 
 For example, storybookJs was used in implementing a design system/component library for the product, as well other code quality check like husky and linted-staged was introduced in the process.
 
-Flow was also used to ensure 100% test coverage. I have also alternated between snapshot, unit, and integration test
+Flow was also used to ensure 100% test coverage. I have also alternated between snapshot, unit, and integration test.
 
 # Notable tech stack includes the following
 
 1. React
-2. Redux
+2. Redux (redux-saga)
 3. Flow
 4. Jest
 5. Storybook

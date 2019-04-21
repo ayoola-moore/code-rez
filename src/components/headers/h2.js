@@ -1,4 +1,4 @@
-import React from 'react'
+import * as React from 'react' // Flow recommended this
 import colors from '../../styleGuide/colors/colors.scss'
 import fonts from '../../styleGuide/fonts/fonts.scss'
 
@@ -8,7 +8,7 @@ type Props = {
 
 const styles = {
     fontFamily: fonts.headerFont,
-    fontSize: '2em',
+    fontSize: '1em',
     textTransform: 'uppercase',
     color: colors.textPrimary,
     width: '100%',

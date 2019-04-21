@@ -1,4 +1,4 @@
-import React from 'react'
+import * as React from 'react' // Flow recommended this
 import { storiesOf } from '@storybook/react'
 import { withInfo } from '@storybook/addon-info'
 import { withKnobs, text } from '@storybook/addon-knobs/react'
