@@ -114,8 +114,8 @@ The normal convention would be "npm run ..." without the quote and ... replaced 
 
 Clone the repo locally. In a terminal, run:
 
-```
-$ git clone git@github.com:ayoola-moore/code-rez.git
+```bash
+git clone git@github.com:ayoola-moore/code-rez.git;
 ```
 
 ### 2. Run the application
@@ -123,19 +123,18 @@ $ git clone git@github.com:ayoola-moore/code-rez.git
 1. Install [Node.js](https://nodejs.org/en/)
 2. Run the following commands in a terminal:
 
-```
-$ npm install
+```bash
+npm install;
 
-$ npm run start
+npm run start;
 ```
 
 Or Serve build copy locally
 
-```
-$ npm run build
+```bash
+npm run build;
 
-$ npm run serve
-
+npm run serve;
 ```
 
 Verify app is running and working correctly.
@@ -155,24 +154,26 @@ Verify app is running and working correctly.
 
 ### 1. Build the image
 
+*Note:* This is not for production, for production the Dockerfile would need to be modified for building the project first.
+
 In a terminal, run:
 
-```
-$ docker build -t $docker_username/rezdy .
+```bash
+docker build . -t $docker_username/rezdy;
 ```
 
 Your image should be listed by running:
 
-```
-$ docker images
+```bash
+docker images;
 ```
 
 ### 2. Run the image
 
 In a terminal, run:
 
-```
-$ docker run -p 3000:3000 -d $docker_username/rezdy
+```bash
+docker run -it -d -p 3000:3000 --name $youcontainername $docker_username/rezdy;
 ```
 
 You can now access the application at http://localhost:3000
