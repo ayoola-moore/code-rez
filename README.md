@@ -2,7 +2,7 @@
 
 ![feature capture](https://media.giphy.com/media/1xV6AbmqSeO02f18cV/giphy.gif)
 
-!important- I notice the range of date provided by the api are out of range and might be able to show the feature request. So I mocked out same api. Kindly comment it out at src/api/Api.js if need be.
+!important- I notice the range of date provided by the api are out of range and might be able to show the feature request. So I mocked out same api. Kindly comment it out at src/api/Api.js if need be...
 
 ===
 
