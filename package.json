@@ -5,7 +5,7 @@
         "axios": "^0.18.0",
         "core-js": "^2.6.5",
         "flow-bin": "^0.90.0",
-        "node-sass": "^4.11.0",
+        "node-sass": "^4.13.1",
         "react": "^16.7.0",
         "react-dom": "^16.7.0",
         "react-helmet": "^5.2.0",
