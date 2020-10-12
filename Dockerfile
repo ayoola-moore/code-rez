@@ -4,17 +4,16 @@ FROM node:9.4
 # set working directory
 WORKDIR /usr/src/app
 
-# install and cache app dependencies
-COPY package*.json ./
-ADD package.json /usr/src/app/package.json
+# Copy the build folder of the react app
+COPY . /usr/src/app
 
 # Prepare build directory
-RUN npm install
+RUN cd /usr/src/app && npm install
 
-# Copy the build folder of the react app
-COPY . .
-
-# Expose it on port 80
+# Expose it on port 80 for production
 EXPOSE 8080
+
+# Expose it on port 3000 for development
+EXPOSE 3000
 
 CMD ["npm", "start"]
