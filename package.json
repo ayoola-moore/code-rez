@@ -2,7 +2,7 @@
     "name": "rezdy",
     "version": "0.1.0",
     "dependencies": {
-        "axios": "^0.18.0",
+        "axios": "^0.21.1",
         "core-js": "^2.6.5",
         "flow-bin": "^0.90.0",
         "node-sass": "^4.11.0",
